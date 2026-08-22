@@ -1,0 +1,1 @@
+package com.onboardiq; import org.springframework.boot.SpringApplication; import org.springframework.boot.autoconfigure.SpringBootApplication; @SpringBootApplication public class OnboardIqApplication { public static void main(String[] args){SpringApplication.run(OnboardIqApplication.class,args);} }

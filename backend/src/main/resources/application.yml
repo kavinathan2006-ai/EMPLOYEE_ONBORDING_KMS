@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: onboardiq-api
+  datasource:
+    url: ${DATABASE_URL:jdbc:postgresql://localhost:5432/onboardiq}
+    username: ${DATABASE_USER:onboardiq}
+    password: ${DATABASE_PASSWORD:onboardiq}
+  jpa:
+    hibernate:
+      ddl-auto: validate
